@@ -68,4 +68,4 @@ This repository contains the assignments and labs for the Cross-Platform Program
 
 ### Lab 1: I am rich
 - **Description**: I am rich  
-- **GitHub Link**: [Lab 1 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab1/lab1_view.dart)
+- **GitHub Link**: [Lab 1 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab1)
