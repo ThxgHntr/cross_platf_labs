@@ -8,12 +8,6 @@
 ## Introduction
 This repository contains the assignments and labs for the Cross-Platform Programming course. Each lab is stored in a separate directory and includes a link to the corresponding lab folder in this repository.
 
-## List of Labs
-
-### Lab 1: I am rich
-- **Description**: I am rich  
-- **GitHub Link**: [Lab 1 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab1/lab1_view.dart)
-
 ---
 
 ## How to Build the Project
@@ -79,3 +73,10 @@ This repository contains the assignments and labs for the Cross-Platform Program
 - If you encounter any issues during the build process, try running:
   ```bash
   flutter doctor
+
+
+## List of Labs
+
+### Lab 1: I am rich
+- **Description**: I am rich  
+- **GitHub Link**: [Lab 1 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab1/lab1_view.dart)
