@@ -10,6 +10,6 @@ This repository contains the assignments and labs for the Cross-Platform Program
 
 ## List of Labs
 
-### Lab 1: [Lab 1 Name]
+### Lab 1: I am rich
 - Description: I am rich
-- GitHub Link: []
+- GitHub Link: [https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab1/lab1_view.dart]
