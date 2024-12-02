@@ -12,17 +12,6 @@ This repository contains the assignments and labs for the Cross-Platform Program
 
 ## How to Build the Project
 
-### Prerequisites
-1. **Install Flutter**
-   - Download and install Flutter from the [official website](https://flutter.dev/docs/get-started/install).
-   - Set up your environment variables by adding the Flutter SDK's `bin` directory to your system's `PATH`.
-
-2. **Install Dependencies**
-   - Run the following command to get all required dependencies:
-     ```bash
-     flutter pub get
-     ```
-
 ### Steps to Build the Project
 1. **Clone the Repository**
    - Use the following command to clone the repository:
