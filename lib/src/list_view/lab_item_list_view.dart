@@ -48,15 +48,11 @@ class LabItemListView extends StatelessWidget {
           final item = items[index];
 
           return ListTile(
-              // for each item, create a ListTile that take routeName and image
-              // from the LabItem object
-
+              contentPadding:
+                  const EdgeInsets.symmetric(horizontal: 16.0, vertical: 5.0),
               leading: Image.asset(item.image),
               title: Text('Lab ${item.id}'),
               onTap: () {
-                // Navigate to the details page. If the user leaves and returns
-                // to the app after it has been killed while running in the
-                // background, the navigation stack is restored.
                 Navigator.restorablePushNamed(context, item.routeName);
               });
         },
