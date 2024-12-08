@@ -15,7 +15,7 @@ class Lab1View extends StatelessWidget {
         title: Row(
           children: [
             Image.asset(
-              'assets/icon/diamond_icon.png',
+              'assets/icons/diamond_icon.png',
               width: 32,
               height: 32,
             ),
