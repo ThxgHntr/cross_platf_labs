@@ -4,7 +4,7 @@ class Lab2View extends StatelessWidget {
   const Lab2View({super.key});
 
   static const String routeName = '/lab2';
-  static const String image = 'assets/icons/diamond_icon.png';
+  static const String image = 'assets/icons/self_introduce_icon.webp';
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,22 @@ class Lab2View extends StatelessWidget {
         backgroundColor: Theme.of(context).brightness == Brightness.dark
             ? Colors.pink[800]
             : Colors.pinkAccent[100],
-        title: const Text('Lab 2 - MiCard'),
+        title: Row(
+          children: [
+            Image.asset(
+              image,
+              width: 32,
+              height: 32,
+              fit: BoxFit.contain,
+            ),
+            const SizedBox(width: 8),
+            // responsive text color
+            Text(
+              'Lab 2 - Mi Card',
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+          ],
+        ),
       ),
       body: Center(
         child: Card(

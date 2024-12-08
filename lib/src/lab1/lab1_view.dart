@@ -20,6 +20,7 @@ class Lab1View extends StatelessWidget {
               image,
               width: 32,
               height: 32,
+              fit: BoxFit.contain,
             ),
             const SizedBox(width: 8),
             // responsive text color

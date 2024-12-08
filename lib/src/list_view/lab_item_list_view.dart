@@ -50,7 +50,12 @@ class LabItemListView extends StatelessWidget {
           return ListTile(
               contentPadding:
                   const EdgeInsets.symmetric(horizontal: 16.0, vertical: 5.0),
-              leading: Image.asset(item.image),
+              leading: Image.asset(
+                item.image,
+                width: 50,
+                height: 50,
+                fit: BoxFit.contain,
+              ),
               title: Text('Lab ${item.id}'),
               onTap: () {
                 Navigator.restorablePushNamed(context, item.routeName);
