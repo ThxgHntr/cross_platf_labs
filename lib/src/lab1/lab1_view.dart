@@ -4,7 +4,7 @@ class Lab1View extends StatelessWidget {
   const Lab1View({super.key});
 
   static const String routeName = '/lab1';
-  static const String image = 'assets/icon/diamond_icon.png';
+  static const String image = 'assets/icons/diamond_icon.png';
 
   @override
   Widget build(BuildContext context) {
