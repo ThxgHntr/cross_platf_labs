@@ -47,7 +47,13 @@ class LabItemListView extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           final item = items[index];
 
-          return ListTile(
+          return Container(
+            decoration: BoxDecoration(
+              border: Border.all(color: Colors.grey),
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+            margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 5.0),
+            child: ListTile(
               contentPadding:
                   const EdgeInsets.symmetric(horizontal: 16.0, vertical: 5.0),
               leading: Image.asset(
@@ -59,7 +65,9 @@ class LabItemListView extends StatelessWidget {
               title: Text('Lab ${item.id}'),
               onTap: () {
                 Navigator.restorablePushNamed(context, item.routeName);
-              });
+              },
+            ),
+          );
         },
       ),
     );
