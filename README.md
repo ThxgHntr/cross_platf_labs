@@ -73,3 +73,7 @@ This repository contains the assignments and labs for the Cross-Platform Program
 ### Lab 2: MiCard
 - **Description**: MiCard  
 - **GitHub Link**: [Lab 2 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab2)
+
+### Lab3: Dice
+- **Description**: MiCard  
+- **GitHub Link**: [Lab 2 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab3)
