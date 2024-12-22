@@ -26,30 +26,47 @@ class _Lab3State extends State<Lab3View> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[900],
       appBar: AppBar(
-        title: const Text('Dice'),
+        backgroundColor: Theme.of(context).brightness == Brightness.dark
+            ? Colors.pink[800]
+            : Colors.pinkAccent[100],
+        title: Row(
+          children: [
+            Image.asset(
+              Lab3View.image,
+              width: 32,
+              height: 32,
+            ),
+            const SizedBox(width: 8),
+            // responsive text color
+            Text(
+              'Lab 3 - Dice',
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+          ],
+        ),
       ),
       body: GestureDetector(
         onTap: dice,
         child: Center(
           child: SingleChildScrollView(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Row(
                   children: [
                     Expanded(
                       child: Padding(
                         padding: const EdgeInsets.all(16.0),
-                        child:
-                            Image.asset('images/dices/dice$leftDiceNumber.png'),
+                        child: Image.asset(
+                            'assets/images/dices/dice$leftDiceNumber.png'),
                       ),
                     ),
                     Expanded(
                       child: Padding(
                         padding: const EdgeInsets.all(16.0),
                         child: Image.asset(
-                            'images/dices/dice$rightDiceNumber.png'),
+                            'assets/images/dices/dice$rightDiceNumber.png'),
                       ),
                     ),
                   ],
