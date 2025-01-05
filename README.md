@@ -67,13 +67,13 @@ This repository contains the assignments and labs for the Cross-Platform Program
 ## List of Labs
 
 ### Lab 1: I am rich
-- **Description**: I am rich  
+- **Description**: I am rich text with diamond picture  
 - **GitHub Link**: [Lab 1 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab1)
 
 ### Lab 2: MiCard
-- **Description**: MiCard  
+- **Description**: My introduce card
 - **GitHub Link**: [Lab 2 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab2)
 
-### Lab3: Dice
-- **Description**: MiCard  
-- **GitHub Link**: [Lab 2 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab3)
+### Lab 3: Dice
+- **Description**: Roll a dice! 
+- **GitHub Link**: [Lab 3 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab3)
