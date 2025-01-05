@@ -1,3 +1,4 @@
+import 'package:cross_platf_labs/src/lab4/lab4_view.dart';
 import 'package:cross_platf_labs/src/list_view/lab_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
       LabItem(id: 1, image: Lab1View.image, routeName: Lab1View.routeName),
       LabItem(id: 2, image: Lab2View.image, routeName: Lab2View.routeName),
       LabItem(id: 3, image: Lab3View.image, routeName: Lab3View.routeName),
+      LabItem(id: 4, image: Lab4View.image, routeName: Lab4View.routeName),
     ];
     // Glue the SettingsController to the MaterialApp.
     //
@@ -87,6 +89,8 @@ class MyApp extends StatelessWidget {
                     return const Lab2View();
                   case Lab3View.routeName:
                     return const Lab3View();
+                  case Lab4View.routeName:
+                    return const Lab4View();
                   default:
                     return LabItemListView(
                       items: items,
