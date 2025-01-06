@@ -78,6 +78,6 @@ This repository contains the assignments and labs for the Cross-Platform Program
 - **Description**: Roll a dice! 
 - **GitHub Link**: [Lab 3 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab3)
 
-### Lab 3: Magic 8 Balls
+### Lab 4: Magic 8 Balls
 - **Description**: Random answer!
 - **GitHub Link**: [Lab 4 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab4)
