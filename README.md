@@ -1,11 +1,13 @@
 # Cross-Platform Programming Course Assignments
 
 ## Student Information
-- **Name**: Trịnh Đàm Huy  
-- **Student ID**: 21IT081  
-- **Class**: 21JIT  
+
+- **Name**: Trịnh Đàm Huy
+- **Student ID**: 21IT081
+- **Class**: 21JIT
 
 ## Introduction
+
 This repository contains the assignments and labs for the Cross-Platform Programming course. Each lab is stored in a separate directory and includes a link to the corresponding lab folder in this repository.
 
 ---
@@ -13,7 +15,9 @@ This repository contains the assignments and labs for the Cross-Platform Program
 ## How to Build the Project
 
 ### Steps to Build the Project
+
 1. **Clone the Repository**
+
    - Use the following command to clone the repository:
      ```bash
      git clone https://github.com/ThxgHntr/cross_platf_labs.git
@@ -21,12 +25,14 @@ This repository contains the assignments and labs for the Cross-Platform Program
      ```
 
 2. **Build for Debug Mode**
+
    - To build the project in debug mode and run it on a connected device or emulator:
      ```bash
      flutter run
      ```
 
 3. **Build for Release Mode**
+
    - To generate a release build for Android:
      ```bash
      flutter build apk
@@ -37,6 +43,7 @@ This repository contains the assignments and labs for the Cross-Platform Program
      ```
 
 4. **Running on a Specific Device**
+
    - List available devices using:
      ```bash
      flutter devices
@@ -59,25 +66,34 @@ This repository contains the assignments and labs for the Cross-Platform Program
    - The output will be in the `build/web` directory.
 
 ### Troubleshooting
+
 - If you encounter any issues during the build process, try running:
   ```bash
   flutter doctor
-
+  ```
 
 ## List of Labs
 
 ### Lab 1: I am rich
-- **Description**: I am rich text with diamond picture  
+
 - **GitHub Link**: [Lab 1 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab1)
 
 ### Lab 2: MiCard
-- **Description**: My introduce card
+
 - **GitHub Link**: [Lab 2 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab2)
 
 ### Lab 3: Dice
-- **Description**: Roll a dice! 
+
 - **GitHub Link**: [Lab 3 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab3)
 
 ### Lab 4: Magic 8 Balls
-- **Description**: Random answer!
+
 - **GitHub Link**: [Lab 4 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab4)
+
+### Lab 5: Xylophone
+
+- **GitHub Link**: [Lab 5 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab5)
+
+### Lab 6: Quizzler
+
+- **GitHub Link**: [Lab 6 Code](https://github.com/ThxgHntr/cross_platf_labs/blob/master/lib/src/lab6)

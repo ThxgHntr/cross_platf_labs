@@ -4,6 +4,9 @@
 
 This lab demonstrates a simple Flutter application called "Quizzler".
 
+![Quizzler answer](lab6_1.png)
+![Quizzler result](lab6_2.png)
+
 ## Expected Output
 
 - A series of true/false questions displayed one at a time.
