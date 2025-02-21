@@ -4,7 +4,9 @@
 
 This lab demonstrates a simple Flutter application called "Xylophone".
 
-![Xylophone](lab5.png)
+<p align="center">
+  <img src="lab5.png" alt="Xylophone">
+</p>
 
 ## Expected Output
 

@@ -4,7 +4,9 @@
 
 This lab demonstrates a simple Flutter application called "MiCard".
 
-![MiCard](lab2.png)
+<p align="center">
+  <img src="lab2.png" alt="MiCard">
+</p>
 
 ## Expected Output
 

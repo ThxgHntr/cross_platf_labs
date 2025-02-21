@@ -4,8 +4,10 @@
 
 This lab demonstrates a simple Flutter application called "Quizzler".
 
-![Quizzler answer](lab6_1.png)
-![Quizzler result](lab6_2.png)
+<p align="center">
+  <img src="lab6_1.png" alt="Quizzler answer">
+  <img src="lab6_2.png" alt="Quizzler result">
+</p>
 
 ## Expected Output
 

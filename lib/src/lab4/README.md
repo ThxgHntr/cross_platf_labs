@@ -4,7 +4,9 @@
 
 This lab demonstrates a simple Flutter application called "Magic 8 ball".
 
-![Magic 8 Ball](lab4.png)
+<p align="center">
+  <img src="lab4.png" alt="Magic 8 Ball">
+</p>
 
 ## Expected Output
 

@@ -4,7 +4,9 @@
 
 This lab demonstrates a simple Flutter application called "Dice".
 
-![Dice](lab3.png)
+<p align="center">
+  <img src="lab3.png" alt="Dice">
+</p>
 
 ## Expected Output
 
