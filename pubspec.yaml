@@ -1,8 +1,8 @@
 name: cross_platf_labs
-description: "A new Flutter project."
+description: "Flutter labs for cross-platform development."
 
 # Prevent accidental publishing to pub.dev.
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
@@ -10,6 +10,7 @@ environment:
   sdk: ^3.5.4
 
 dependencies:
+  audioplayers: ^6.2.0
   flutter:
     sdk: flutter
   flutter_localizations:
@@ -33,3 +34,4 @@ flutter:
     - assets/images/dices/
     - assets/images/balls/
     - assets/icons/
+    - assets/audio/
