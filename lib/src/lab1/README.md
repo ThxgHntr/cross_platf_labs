@@ -4,7 +4,7 @@
 
 This lab demonstrates a simple application that displays a diamond image in the middle of the screen with the title "I am rich!".
 
-<p align="center"></p>
+<p align="center">
   <img src="lab1.png" alt="I am rich!">
 </p>
 
