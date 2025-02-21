@@ -11,6 +11,7 @@ import 'lab2/lab2_view.dart';
 import 'lab3/lab3_view.dart';
 import 'lab4/lab4_view.dart';
 import 'lab5/lab5_view.dart';
+import 'lab6/lab6_view.dart';
 
 /// The Widget that configures your application.
 class MyApp extends StatelessWidget {
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
       LabItem(id: 3, image: Lab3View.image, routeName: Lab3View.routeName),
       LabItem(id: 4, image: Lab4View.image, routeName: Lab4View.routeName),
       LabItem(id: 5, image: Lab5View.image, routeName: Lab5View.routeName),
+      LabItem(id: 6, image: Lab6View.image, routeName: Lab6View.routeName),
     ];
     // Glue the SettingsController to the MaterialApp.
     //
@@ -95,6 +97,8 @@ class MyApp extends StatelessWidget {
                     return const Lab4View();
                   case Lab5View.routeName:
                     return const Lab5View();
+                  case Lab6View.routeName:
+                    return const Lab6View();
                   default:
                     return LabItemListView(
                       items: items,
