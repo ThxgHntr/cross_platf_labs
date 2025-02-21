@@ -9,10 +9,10 @@ class Lab4View extends StatefulWidget {
   static const String image = 'assets/icons/ball.png';
 
   @override
-  State<Lab4View> createState() => _Lab3State();
+  State<Lab4View> createState() => _Lab4State();
 }
 
-class _Lab3State extends State<Lab4View> {
+class _Lab4State extends State<Lab4View> {
   int ballNum = 1;
 
   void ball() {
